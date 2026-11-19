@@ -1,1 +1,8 @@
-@import 'tailwindcss'
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Syne:wght@400..800&display=swap'); */
+
+@theme {
+  --font-anonymous: "Anonymous Pro", monospace;
+  --font-syne: "Syne", sans-serif;
+  --font-Fraunces: "Fraunces", serif;
+}
