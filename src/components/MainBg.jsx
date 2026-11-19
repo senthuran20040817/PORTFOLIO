@@ -1,4 +1,5 @@
-import Home from './Home.jsx';
+// import Home from './Home.jsx';
+import AboutMe from './AboutMe.jsx';
 
 function MainBg() {
     return (
@@ -17,7 +18,7 @@ function MainBg() {
                     </ul>
                 </div>
             </nav>
-            <Home/>
+            <AboutMe/>
             <div className="flex justify-between items-center text-sm py-1 rounded-md ">
                 <p>© 2026 Senthuran. All Rights Reserved.</p>
                 <div className="flex gap-8">
