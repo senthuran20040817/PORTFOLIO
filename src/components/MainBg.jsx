@@ -2,7 +2,7 @@ import Home from './Home.jsx';
 
 function MainBg() {
     return (
-        <div className="h-screen bg-linear-[124deg,#7EB397_0%,#D4EDEA_89%] flex flex-col px-5">
+        <section className="h-screen bg-linear-[124deg,#7EB397_0%,#D4EDEA_89%] flex flex-col px-5 box-border">
             <nav className="">
                 <div className="flex justify-center py-4">
                     <ul className="flex gap-10  font-anonymous text-md">
@@ -18,15 +18,15 @@ function MainBg() {
                 </div>
             </nav>
             <Home/>
-            <div className="flex justify-between text-sm py-1 rounded-md">
+            <div className="flex justify-between items-center text-sm py-1 rounded-md ">
                 <p>© 2026 Senthuran. All Rights Reserved.</p>
-                <div className="flex gap-10">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                <div className="flex gap-8">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-solid fa-at"></i>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
