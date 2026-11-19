@@ -1,3 +1,5 @@
+import Home from './Home.jsx';
+
 function MainBg() {
     return (
         <div className="h-screen bg-linear-[124deg,#7EB397_0%,#D4EDEA_89%] flex flex-col px-5">
@@ -15,15 +17,7 @@ function MainBg() {
                     </ul>
                 </div>
             </nav>
-            <div className="relative bg-white grow rounded-md flex justify-center items-center">
-                <div className="flex flex-col text-center">
-                    <p className="font-Fraunces font-extrabold text-9xl">SENTHURAN</p>
-                    <p className="font-anonymous text-xl" >Aspiring Full-Stack Developer</p>
-                </div>
-                <div className=" absolute left-4 top-4">
-                    <p className="font-anonymous">{`<Home />`}</p>
-                </div>
-            </div>
+            <Home/>
             <div className="flex justify-between text-sm py-1 rounded-md">
                 <p>© 2026 Senthuran. All Rights Reserved.</p>
                 <div className="flex gap-10">
