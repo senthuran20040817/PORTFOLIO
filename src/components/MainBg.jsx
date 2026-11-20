@@ -1,30 +1,34 @@
-// import Home from './Home.jsx';
-// import AboutMe from './AboutMe.jsx';
-// import Volunteering from './Volunteering.jsx'
-// import Projects from './Projects.jsx'
-// import Certifications from './Certifications.jsx'
-// import Testimonials from './Testimonials.jsx'
-// import Education from './Education.jsx'
+import Home from './Home.jsx';
+import AboutMe from './AboutMe.jsx';
+import Volunteering from './Volunteering.jsx'
+import Projects from './Projects.jsx'
+import Certifications from './Certifications.jsx'
+import Testimonials from './Testimonials.jsx'
+import Education from './Education.jsx'
 import ContactMe from './ContactMe.jsx'
 
+import { useState } from 'react';
+
 function MainBg() {
+    const [page, setPage] = useState("home");
+    
+    const content = page==="home" ? <Home/> : page==="about" ? <AboutMe/> : page==="volunteering" ? <Volunteering/> : page==="projects" ? <Projects/> : page==="certifications" ? <Certifications/> : page==="testimonials" ? <Testimonials/> : page==="education" ? <Education/> :  page==="contact" ? <ContactMe/> : "" ;
+
     return (
         <section className="h-screen bg-linear-[124deg,#7EB397_0%,#D4EDEA_89%] flex flex-col px-5 box-border">
-            <nav className="">
-                <div className="flex justify-center py-4">
-                    <ul className="flex gap-10  font-anonymous text-md">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Volunteering</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Certifications</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Education</a></li>
-                        <li><a href="#">Contact Me</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <ContactMe/>
+            <div className="flex justify-center py-4">
+                <nav className="flex gap-10 font-anonymous text-md font-bold">
+                    <p onClick={() => setPage("home")} className={`cursor-pointer hover:text-white ${page==="home" && "text-white underline"}`}>Home</p>
+                    <p onClick={() => setPage("about")} className={`cursor-pointer hover:text-white ${page==="about" && "text-white underline"}`}>About Me</p>
+                    <p onClick={() => setPage("volunteering")} className={`cursor-pointer hover:text-white ${page==="volunteering" && "text-white underline"}`}>Volunteering</p>
+                    <p onClick={() => setPage("projects")} className={`cursor-pointer hover:text-white ${page==="projects" && "text-white underline"}`}>Projects</p>
+                    <p onClick={() => setPage("certifications")} className={`cursor-pointer hover:text-white ${page==="certifications" && "text-white underline"}`}>Certifications</p>
+                    <p onClick={() => setPage("testimonials")} className={`cursor-pointer hover:text-white ${page==="testimonials" && "text-white underline"}`}>Testimonials</p>
+                    <p onClick={() => setPage("education")} className={`cursor-pointer hover:text-white ${page==="education" && "text-white underline"}`}>Education</p>
+                    <p onClick={() => setPage("contact")} className={`cursor-pointer hover:text-white ${page==="contact" && "text-white underline"}`}>Contact Me</p>
+                </nav>
+            </div>
+            {content}
             <div className="flex justify-between items-center text-sm py-1 rounded-md ">
                 <p>© 2026 Senthuran. All Rights Reserved.</p>
                 <div className="flex gap-8">
