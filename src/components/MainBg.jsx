@@ -3,7 +3,8 @@
 // import Volunteering from './Volunteering.jsx'
 // import Projects from './Projects.jsx'
 // import Certifications from './Certifications.jsx'
-import Testimonials from './Testimonials.jsx'
+// import Testimonials from './Testimonials.jsx'
+import Education from './Education.jsx'
 
 function MainBg() {
     return (
@@ -22,7 +23,7 @@ function MainBg() {
                     </ul>
                 </div>
             </nav>
-            <Testimonials/>
+            <Education/>
             <div className="flex justify-between items-center text-sm py-1 rounded-md ">
                 <p>© 2026 Senthuran. All Rights Reserved.</p>
                 <div className="flex gap-8">
