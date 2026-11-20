@@ -4,8 +4,8 @@ import { techLogos, tools } from "../../constants.jsx"
 
 function AboutMe() {
     return (
-        <section className="relative bg-white grow rounded-md flex flex-col">
-            <div className="grid grid-cols-2 h-full mt-10 mx-3">
+        <section className="relative bg-white grow rounded-md flex flex-col  px-3">
+            <div className="grid grid-cols-2 h-full mt-10">
                 <div className="flex flex-col gap-2">
                     <p className="font-bold font-Fraunces text-3xl">In My Own Words</p>
                     <p className="w-full text-justify font-syne font-bold mt-5">I'm Senthuran, a developer exploring Java, frontend technologies, and the creative possibilities of turning ideas into interactive digital experiences.</p>
@@ -54,7 +54,7 @@ function AboutMe() {
                     speed={50}
                 />
             </div>
-            <div className=" absolute left-3 top-2">
+            <div className=" absolute top-2">
                 <p className="font-anonymous">{`<AboutMe />`}</p>
             </div>
         </section>

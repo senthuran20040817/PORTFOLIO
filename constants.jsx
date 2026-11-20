@@ -20,3 +20,7 @@ export const tools = [
   ["git", "GitHub"],
   ["Vercel", "GitHub Pages", "Netlify"]
 ]
+
+export const volunteeringImages = [
+  `<img src="">`
+]
