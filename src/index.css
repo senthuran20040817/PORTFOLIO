@@ -27,5 +27,13 @@
   --color-cert-org: hsl(130 10% 50%);
   --color-cert-desc: hsl(50 20% 50%);
   --color-cert-know: hsl(50 40% 40%);
-  --color-cert-shadow: hsl(50 20% 100%);
+  --color-cert-shadow: hsl(50 20% 100%)hsl(50 20% 100%);
+  --color-recom-name: hsl(50 0% 45%);
+  --color-recom-place: hsl(50 0% 60%);
+  --color-recom-msg: hsl(50 35% 35%);
+  --color-recom-border: hsl(50 50% 70%);
+  --color-recom-name-main: hsl(50 0% 40%);
+  --color-recom-place-main: hsl(50 0% 50%);
+  --color-recom-msg-main: hsl(50 80% 40%);
+  --color-recom-border-main: hsl(50 50% 55%);
 }
