@@ -20,7 +20,7 @@ function Testimonials() {
                     </div>
                 </div>
                 <div className=" w-full flex justify-center items-center">
-                    <div className="p-3  w-full h-70 bg-gray-100 border border-recom-border-main     shadow m-1 rounded-xl flex flex-col">
+                    <div className="p-3  w-full h-70 bg-gray-100 border border-recom-border-main shadow-lg m-1 rounded-xl flex flex-col">
                         <p className="grow flex items-center text-justify font-syne font-bold text-md overflow-hidden text-recom-msg-main">"Senthuran is a dedicated and curious learner who consistently shows enthusiasm for technology and software development. His willingness to explore new ideas, learn independently, and take on challenges reflects his passion for continuous growth."</p>
                         <div className="pt-3 flex items-center gap-2">
                             <div className="bg-amber-200 h-12 w-12 rounded-4xl overflow-hidden" >
