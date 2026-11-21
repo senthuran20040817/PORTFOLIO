@@ -40,4 +40,10 @@
   --color-edu-topic: hsl(50 30% 50%);
   --color-edu-place: hsl(50 50% 70%);
   --color-edu-time: hsl(130 0% 70%);
+  --color-icon: hsl(130 30% 50%);
+  --color-contact-tag: hsl(50 40% 60%);
+  --color-contact-value: hsl(50 70% 35%);
+  --color-contact-box-bg: hsl(130 30% 40%);
+  --color-contact-box: hsl(50 10% 95%);
+
 }
