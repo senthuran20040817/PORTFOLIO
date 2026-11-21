@@ -16,4 +16,9 @@
   --color-vol-card: hsl(50 70% 95%);
   --color-vol-name: hsl(50 70% 30%);
   --color-vol-place: hsl(50 40% 60%);
+  --color-project-name: hsl(50 100% 30%);
+  --color-project-skill-bg: hsl(130 70% 90%);
+  --color-project-skill-text: hsl(130 50% 50%);
+  --color-project-link-text: hsl(50 40% 40%);
+  --color-see-more: hsl(130 100% 30%);
 }
