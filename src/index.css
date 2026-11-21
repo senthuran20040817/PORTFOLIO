@@ -6,4 +6,11 @@
   --font-syne: "Syne", sans-serif;
   --font-Fraunces: "Fraunces", serif;
   --font-anton: "Anton", sans-serif;
+
+  --color-name: hsl(130 70% 30%);
+  --color-prof: hsl(58 60% 40%);
+  --color-tag: hsl(110 10% 50%);
+  --color-nav: hsl(127 50% 30%);
+  --color-bottom: hsl(110 20% 40%);
+  
 }
