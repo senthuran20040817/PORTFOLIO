@@ -4,19 +4,51 @@ function Volunteering() {
     return (
         <section className="relative bg-white grow rounded-md flex flex-col px-3">
             <div className="flex flex-col gap-2 mt-10 mb-5 ">
-                <p className="font-bold font-Fraunces text-3xl">A Purpose Beyond Myself</p>
+                <p className="font-bold font-Fraunces text-3xl text-name">A Purpose Beyond Myself</p>
             </div>
-            <div className="flex justify-between h-full gap-5">
-                <div className="w-full bg-gray-400 rounded-lg"></div>
-                <div className="w-full bg-gray-400 rounded-lg"></div>
-                <div className="w-full bg-gray-400 rounded-lg"></div>
-                <div className="w-full bg-gray-400 rounded-lg"></div>
+            <div className="grid grid-cols-4 h-full gap-5 ">
+                <div className="flex flex-col bg-gray-500 rounded-sm  box-border p-1">
+                    <div className="w-full grow bg-gray-400 rounded-2xl overflow-hidden  ">
+                        <img src="src\assets\vol-1.jpeg" alt="" className=" object-cover h-full  " />
+                    </div>
+                    <div className="h-1/6 text-center pt-3">
+                        <p className="font-syne font-bold text-lg text-white">Leadership Program</p>
+                        <p className="font-anonymous text-sm text-white">Ran Kakulu lama samajaya - Dodangoda</p>
+                    </div>
+                </div>
+                <div className="flex flex-col bg-gray-500 rounded-sm  box-border p-1">
+                    <div className="w-full grow bg-gray-400 rounded-2xl overflow-hidden  ">
+                        <img src="src\assets\vol-1.jpeg" alt="" className=" object-cover h-full  " />
+                    </div>
+                    <div className="h-1/6 text-center pt-3">
+                        <p className="font-syne font-bold text-lg text-white">Leadership Program</p>
+                        <p className="font-anonymous text-sm text-white">Ran Kakulu lama samajaya - Dodangoda</p>
+                    </div>
+                </div>
+                <div className="flex flex-col bg-gray-500 rounded-sm  box-border p-1">
+                    <div className="w-full grow bg-gray-400 rounded-2xl overflow-hidden  ">
+                        <img src="src\assets\vol-1.jpeg" alt="" className=" object-cover h-full  " />
+                    </div>
+                    <div className="h-1/6 text-center pt-3">
+                        <p className="font-syne font-bold text-lg text-white">Leadership Program</p>
+                        <p className="font-anonymous text-sm text-white">Ran Kakulu lama samajaya - Dodangoda</p>
+                    </div>
+                </div>
+                <div className="flex flex-col bg-gray-500 rounded-sm  box-border p-1">
+                    <div className="w-full grow bg-gray-400 rounded-2xl overflow-hidden  ">
+                        <img src="src\assets\vol-1.jpeg" alt="" className=" object-cover h-full  " />
+                    </div>
+                    <div className="h-1/6 text-center pt-3">
+                        <p className="font-syne font-bold text-lg text-white">Leadership Program</p>
+                        <p className="font-anonymous text-sm text-white">Ran Kakulu lama samajaya - Dodangoda</p>
+                    </div>
+                </div>
             </div>
             <div className="flex justify-end py-2">
-                <u><a className="font-anonymous text-sm" href="#"> Click here to see more</a></u>
+                {/* <u><a className="font-anonymous text-sm" href="#"> Click here to see more</a></u> */}
             </div>
             <div className=" absolute top-2">
-                <p className="font-anonymous">{`<Volunteering />`}</p>
+                <p className="font-anonymous text-tag font-bold">{`<Volunteering />`}</p>
             </div>
         </section>
     )
