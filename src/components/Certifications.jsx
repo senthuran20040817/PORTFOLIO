@@ -2,16 +2,16 @@ import { certificates } from "../../constants.jsx"
 
 function Certifications() {
     return (
-        <section className="relative bg-white grow rounded-md flex flex-col px-3 h-full ">
+        <section className="relative bg-white grow rounded-md flex flex-col px-3 h-full overflow-hidden">
             <div className="flex flex-col gap-2 mt-10 mb-5 ">
                 <p className="font-bold font-Fraunces text-3xl text-name">Milestones That Shape My Journey.</p>
             </div>
-            <div className="grid grid-cols-2 grid-rows-2 h-full gap-5">
+            <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2  h-full gap-5  overflow-y-auto scrollbar-none pb-2">
                 {
                     certificates.map((certificate) => {
                         return (
-                            <div className="bg-cert-bg flex gap-2 border  border-cert-border overflow-hidden shadow-md">
-                                <div className="relative w-2/5 shrink-0  border-r border-cert-border">
+                            <div className="bg-cert-bg flex gap-2 border sm:flex-row flex-col  border-cert-border shadow-md">
+                                <div className="relative sm:w-2/5 border-b sm:border-r border-cert-border">
                                     <img src={certificate.image} alt="" className="object-cover h-full grayscale" />
                                     <div className="absolute inset-0 bg-cert-shadow mix-blend-multiply"></div>
                                 </div>
@@ -28,7 +28,7 @@ function Certifications() {
                     })
                 }
             </div>
-            <div className="flex justify-end py-2">
+            <div className="justify-end py-2 sm:flex hidden">
                 <u><a className="font-anonymous text-sm text-see-more" href="#"> Click here to see more</a></u>
             </div>
             <div className=" absolute top-2">

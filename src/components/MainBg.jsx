@@ -17,7 +17,7 @@ function MainBg() {
     return (
         <section className="h-screen bg-linear-[124deg,#7EB397_0%,#D4EDEA_89%] flex flex-col px-5 box-border">
             <div className="flex justify-center py-4">
-                <nav className="flex gap-10 font-anonymous text-md font-bold text-nav">
+                <nav className="md:flex gap-10 font-anonymous text-md font-bold text-nav hidden">
                     <p onClick={() => setPage("home")} className={`cursor-pointer hover:text-green-800 ${page==="home" && "text-green-900 underline"}`}>Home</p>
                     <p onClick={() => setPage("about")} className={`cursor-pointer hover:text-green-800 ${page==="about" && "text-green-800 underline"}`}>About Me</p>
                     <p onClick={() => setPage("volunteering")} className={`cursor-pointer hover:text-green-800 ${page==="volunteering" && "text-green-800 underline"}`}>Volunteering</p>
@@ -31,7 +31,7 @@ function MainBg() {
             {content}
             <div className="flex justify-between items-center text-sm py-1 text-bottom">
                 <p className="font-syne ">© 2026 Senthuran. All Rights Reserved.</p>
-                <div className="flex gap-8">
+                <div className="flex gap-4 sm:gap-8">
                     <i class="fa-brands fa-linkedin-in"></i>
                     <i class="fa-brands fa-github"></i>
                     <i class="fa-solid fa-at"></i>

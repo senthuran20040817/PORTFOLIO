@@ -1,6 +1,6 @@
 function ContactMe() {
     return (
-        <section className="relative bg-white grow rounded-md flex flex-row px-3 h-full ">
+        <section className="relative bg-white grow rounded-md flex sm:flex-row flex-col px-3 h-full overflow-y-auto scrollbar-none box-border pb-2">
 
             <div className="flex-1">
                 <div className="flex flex-col gap-2 mt-10 mb-5 ">
@@ -36,8 +36,8 @@ function ContactMe() {
                     </div>
                 </div>
             </div>
-            <div className="flex-1 box-border">
-                <div className="px-20 py-7 h-full">
+            <div className="grow sm:flex-1 box-border">
+                <div className="sm:px-20 sm:py-7 h-full">
                     <div className="bg-contact-box-bg h-full rounded-md p-4  flex flex-col">
                         <p className="font-syne font-bold text-xl text-contact-box">Send Message</p>
                         <div className="mt-3">

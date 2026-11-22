@@ -6,7 +6,7 @@ function Volunteering() {
             <div className="flex flex-col gap-2 mt-10 mb-5 ">
                 <p className="font-bold font-Fraunces text-3xl text-name">A Purpose Beyond Myself</p>
             </div>
-            <div className="grid grid-cols-4 h-full gap-5 ">
+            <div className="grid sm:grid-cols-4 grid-cols-1 h-full gap-5 ">
                 {
                     volunteering.map((vol) => {
                         return (
