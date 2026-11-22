@@ -74,3 +74,34 @@ export const projects = [
     repo: "https://github.com/senthuran20040817/STRIVE-COACHING"
   }
 ]
+
+export const certificates = [
+  {
+    topic : "DevOps & CloudOps Workshop", 
+    by : "iCET",
+    when : "2026",
+    desc : "An insightful workshop introducing DevOps practices, cloud computing, software deployment, and automation, providing practical exposure to modern development workflows and cloud technologies.",
+    image : "src/assets/cert-1.jpg"
+  },
+  {
+    topic : "Agentic AI Workshop", 
+    by : "iCET",
+    when : "2026",
+    desc : "An insightful workshop exploring Agentic AI concepts, autonomous AI agents, intelligent automation, and AI-driven workflows, providing exposure to modern AI development techniques.",
+    image : "src/assets/cert-2.jpg"
+  },
+  {
+    topic : "Python for Beginners", 
+    by : "University of Moratuwa",
+    when : "2026",
+    desc : "An introductory Python programming course offered by the University of Moratuwa, covering programming fundamentals, basic syntax, data types, control structures, and problem-solving techniques.",
+    image : "src/assets/cert-3.jpg"
+  },
+  {
+    topic : "Learn JavaScript", 
+    by : "Scrimba",
+    when : "2026",
+    desc : "A foundational course covering JavaScript programming, core concepts, functions, DOM manipulation, and interactive web development techniques.",
+    image : "src/assets/cert-4.jpg"
+  }
+]
