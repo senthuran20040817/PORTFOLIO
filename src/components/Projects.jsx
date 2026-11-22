@@ -6,11 +6,11 @@ function Projects() {
             <div className="flex flex-col gap-2 mt-10 mb-5 ">
                 <p className="font-bold font-Fraunces text-3xl text-name">Ideas, Engineered.</p>
             </div>
-            <div className="sm:grid sm:grid-cols-4 grid-rows-2 gap-5 overflow-y-auto scrollbar-none flex flex-col pb-2">
+            <div className="sm:grid sm:grid-cols-4 sm:h-full gap-5 overflow-y-auto scrollbar-none flex flex-col pb-2">
                 {
                     projects.map((project) => {
                         return (
-                            <div className="w-full flex-1 sm:flex-0 bg-gray-50 rounded-sm shadow-md border border-gray-400 h-full">
+                            <div className="w-full flex-1  sm:flex-0 bg-gray-50 rounded-sm shadow-md border border-gray-400 h-full">
                                 <div className="p-3 flex flex-col justify-between h-full">
                                     <div className="font-syne font-bold">
                                         <p className="mb-3 text-lg text-project-name">{project.topic}</p>

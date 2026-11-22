@@ -10,12 +10,12 @@ function Certifications() {
                 {
                     certificates.map((certificate) => {
                         return (
-                            <div className="bg-cert-bg flex gap-2 border sm:flex-row flex-col  border-cert-border shadow-md">
+                            <div className="bg-cert-bg sm:w-full flex gap-2 border sm:flex-row flex-col  border-cert-border shadow-md">
                                 <div className="relative sm:w-2/5 border-b sm:border-r border-cert-border">
                                     <img src={certificate.image} alt="" className="object-cover h-full grayscale" />
                                     <div className="absolute inset-0 bg-cert-shadow mix-blend-multiply"></div>
                                 </div>
-                                <div className="grow flex flex-col justify-between p-2 ">
+                                <div className="grow sm:w-3/5 flex flex-col justify-between p-2 ">
                                     <div className="h-1/4">
                                         <p className="font-syne font-bold text-lg text-cert-topic" >{certificate.topic}</p>
                                         <p className="font-anonymous font-bold text-cert-org">{certificate.by} - {certificate.when}</p>
