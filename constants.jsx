@@ -105,3 +105,24 @@ export const certificates = [
     image : "src/assets/cert-4.jpg"
   }
 ]
+
+export const education = [
+  {
+    no: "01",
+    name: "Diploma in Software Engineering",
+    by: "Institute of Computer Engineering Technology (iCET)",
+    time: "2026-2027"
+  },
+  {
+    no: "02",
+    name: "A2 - Pre-intermediate level",
+    by: "British Council of Srilanka",
+    time: "2026-2027"
+  },
+  {
+    no: "03",
+    name: "GCE A/L Physical Science Stream",
+    by: "D.S.Senanayaka College, Colombo 7",
+    time: "2014-2025"
+  }
+]
