@@ -8,7 +8,7 @@ function AboutMe() {
             <div className="grid grid-cols-2 h-full mt-10">
                 <div className="flex flex-col gap-2">
                     <p className="font-bold font-Fraunces text-3xl text-name">In My Own Words</p>
-                    <p className="w-full text-justify font-syne font-bold mt-5">I'm Senthuran, a developer exploring Java, frontend technologies, and the creative possibilities of turning ideas into interactive digital experiences.</p>
+                    <p className="w-full text-justify font-syne font-bold mt-5 text-gray-600">I'm Senthuran, a developer exploring Java, frontend technologies, and the creative possibilities of turning ideas into interactive digital experiences.</p>
                     <div className="grow font-anonymous font-bold text-skill">
                         <table className="border-separate border-spacing-y-6">
                             <tr className="align-top mt-5">
