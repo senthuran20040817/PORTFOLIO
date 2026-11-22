@@ -43,3 +43,34 @@ export const volunteering = [
     image: "src/assets/vol-1.jpeg"
   }
 ]
+
+export const projects = [
+  {
+    topic: "Weather Application",
+    desc: "A responsive Weather Application that provides real-time weather information for different locations. It displays essential weather details such as temperature, humidity, wind speed, and weather conditions through a clean and user-friendly interface. The application helps users stay informed about current weather conditions and plan their activities accordingly.",
+    skills: ["Tailwind CSS", "Responsive Web Design", "JavaScript", "JSON", "API","HTML5"],
+    demo: "https://weather-app-xi-cyan-75.vercel.app/",
+    repo: "https://github.com/senthuran20040817/WEATHER-APP"
+  },
+  {
+    topic: "Personal Chatbot",
+    desc: "An interactive Personal Chatbot designed to provide instant responses to user queries through a conversational interface. It assists users by answering questions, offering useful information, and creating a smooth, user-friendly communication experience. The project demonstrates the integration of AI-powered conversational features into a modern web application.",
+    skills: ["Google Gemini", "Responsive Web Design", "JavaScript", "CSS3", "API","HTML5"],
+    demo: "https://personal-chatbot-with-gemini.vercel.app/",
+    repo: "https://github.com/senthuran20040817/PERSONAL-CHATBOT-WITH-GEMINI"
+  },
+  {
+    topic: "Number Guessing Game",
+    desc: "An interactive guessing game where players challenge themselves to find a randomly generated number within limited attempts.",
+    skills: ["JavaScript", "CSS3", "HTML5"],
+    demo: "https://senthuran20040817.github.io/NUMBER-GUESSING-GAME/",
+    repo: "https://github.com/senthuran20040817/NUMBER-GUESSING-GAME"
+  },
+  {
+    topic: "Strive Coaching",
+    desc: "Strive Coaching is an educational platform designed to connect students with quality tuition and learning opportunities. It provides a structured and user-friendly environment where students can explore academic courses, access educational information, and discover suitable tutoring services to support their academic growth and success.",
+    skills: ["CSS3", "HTML5"],
+    demo: "https://strive-coaching.vercel.app/",
+    repo: "https://github.com/senthuran20040817/STRIVE-COACHING"
+  }
+]
