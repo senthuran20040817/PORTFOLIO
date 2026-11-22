@@ -36,6 +36,10 @@ export const tools = [
   ["Vercel", "GitHub Pages", "Netlify"]
 ]
 
-export const volunteeringImages = [
-  `<img src="">`
+export const volunteering = [
+  {
+    topic: "Leadership Program",
+    place: "Ran Kakulu lama samajaya - Dodangoda",
+    image: "src/assets/vol-1.jpeg"
+  }
 ]
