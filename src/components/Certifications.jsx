@@ -6,7 +6,7 @@ function Certifications() {
             <div className="flex flex-col gap-2 mt-10 mb-5 ">
                 <p className="font-bold font-Fraunces text-3xl text-name">Milestones That Shape My Journey.</p>
             </div>
-            <div className="flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2  h-full gap-5  overflow-y-auto scrollbar-none pb-2">
+            <div className="flex flex-col lg:grid lg:grid-cols-2 md: lg:grid-rows-2  h-full gap-5  overflow-y-auto scrollbar-none pb-2">
                 {
                     certificates.map((certificate) => {
                         return (

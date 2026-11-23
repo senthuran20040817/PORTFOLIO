@@ -6,7 +6,7 @@ function Projects() {
             <div className="flex flex-col gap-2 mt-10 mb-5 ">
                 <p className="font-bold font-Fraunces text-3xl text-name">Ideas, Engineered.</p>
             </div>
-            <div className="sm:grid sm:grid-cols-4 sm:h-full gap-5 overflow-y-auto scrollbar-none flex flex-col pb-2">
+            <div className="sm:grid lg:grid-cols-4 lg:grid-rows-1 lg:h-full gap-5 md:grid-cols-2 md:grid-rows-2 overflow-y-auto scrollbar-none flex flex-col pb-2 md:h-full">
                 {
                     projects.map((project) => {
                         return (

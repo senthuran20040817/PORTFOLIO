@@ -4,12 +4,12 @@ import { techLogos, tools } from "../../constants.jsx"
 
 function AboutMe() {
     return (
-        <section className="relative bg-white grow rounded-md flex flex-col px-3">
-            <div className="sm:grid sm:grid-cols-2 h-full mt-10">
-                <div className="flex flex-col gap-2">
+        <section className="relative bg-white grow rounded-lg flex flex-col px-3 overflow-hidden">
+            <div className="lg:grid lg:grid-cols-2 h-full mt-10 overflow-y-auto scrollbar-none">
+                <div className="flex flex-col gap-2 overflow-y-auto scrollbar-none">
                     <p className="font-bold font-Fraunces text-3xl text-name">In My Own Words</p>
                     <p className="w-full text-justify font-syne font-bold mt-5 text-gray-600">I'm Senthuran, a developer exploring Java, frontend technologies, and the creative possibilities of turning ideas into interactive digital experiences.</p>
-                    <div className="bg-gray-300 sm:mx-10 rounded-2xl overflow-hidden block sm:hidden">
+                    <div className="bg-gray-300 lg:mx-10 rounded-2xl overflow-hidden block lg:hidden">
                         <img src="src\assets\profile-img.png" alt="" className="w-full h-full object-cover" />
                     </div>
                     <div className="grow font-anonymous font-bold text-gray-500">
@@ -67,7 +67,7 @@ function AboutMe() {
                         </table>
                     </div>
                 </div>
-                <div className="bg-gray-300 mx-10 rounded-2xl overflow-hidden sm:block hidden">
+                <div className="bg-gray-300 mx-10 rounded-2xl overflow-hidden lg:block hidden">
                     <img src="src\assets\profile-img.png" alt="" className="w-full h-full object-cover" />
                 </div>
             </div>

@@ -1,8 +1,8 @@
 function ContactMe() {
     return (
-        <section className="relative bg-white grow rounded-md flex sm:flex-row flex-col px-3 h-full overflow-y-auto scrollbar-none box-border pb-2">
+        <section className="relative bg-white grow rounded-md flex lg:flex-row flex-col px-3 h-full overflow-y-auto scrollbar-none box-border pb-2">
 
-            <div className="flex-1">
+            <div className="lg:flex-1 md:flex-0 flex-1">
                 <div className="flex flex-col gap-2 mt-10 mb-5 ">
                     <p className="font-bold font-Fraunces text-3xl text-name">Get in Touch.</p>
                 </div>
@@ -36,8 +36,8 @@ function ContactMe() {
                     </div>
                 </div>
             </div>
-            <div className="grow sm:flex-1 box-border">
-                <div className="sm:px-20 sm:py-7 h-full">
+            <div className="lg:grow lg:flex-1 box-border md:mt-10 lg:mt-0">
+                <div className="lg:px-20 lg:py-7 h-full">
                     <div className="bg-contact-box-bg h-full rounded-md p-4  flex flex-col">
                         <p className="font-syne font-bold text-xl text-contact-box">Send Message</p>
                         <div className="mt-3">
@@ -52,7 +52,7 @@ function ContactMe() {
                             <p className="font-anonymous text-contact-box">Message</p>
                             <textarea type="area" className="resize-none h-40 w-full bg-contact-box p-2 rounded-sm font-Fraunces" />
                         </div>
-                        <div className="grow flex items-end ">
+                        <div className="mt-3 lg:grow flex items-end ">
                             <button className="bg-contact-box cursor-pointer font-anonymous text-contact-box-bg font-bold flex items-center justify-center py-1 w-full mt-2 rounded-sm">send</button>
                         </div>
                     </div>

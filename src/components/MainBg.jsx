@@ -17,7 +17,7 @@ function MainBg() {
     return (
         <section className="h-screen bg-linear-[124deg,#7EB397_0%,#D4EDEA_89%] flex flex-col px-5 box-border">
             <div className="flex justify-center py-4">
-                <nav className="md:flex gap-10 font-anonymous text-md font-bold text-nav hidden">
+                <nav className="lg:flex gap-10 font-anonymous text-md font-bold text-nav hidden">
                     <p onClick={() => setPage("home")} className={`cursor-pointer hover:text-green-800 ${page==="home" && "text-green-900 underline"}`}>Home</p>
                     <p onClick={() => setPage("about")} className={`cursor-pointer hover:text-green-800 ${page==="about" && "text-green-800 underline"}`}>About Me</p>
                     <p onClick={() => setPage("volunteering")} className={`cursor-pointer hover:text-green-800 ${page==="volunteering" && "text-green-800 underline"}`}>Volunteering</p>
